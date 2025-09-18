@@ -1,0 +1,7 @@
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'suhel'@'localhost';
+
+DROP DATABASE IF EXISTS ipl_data;
+
+DROP USER IF EXISTS 'suhel'@'localhost';
+
+FLUSH PRIVILEGES;
