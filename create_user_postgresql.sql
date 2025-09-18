@@ -1,0 +1,6 @@
+CREATE USER suhel WITH PASSWORD 'suhel123@';
+
+CREATE DATABASE ipl_data OWNER suhel;
+
+GRANT ALL PRIVILEGES ON DATABASE ipl_data TO suhel;
+
