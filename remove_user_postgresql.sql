@@ -1,0 +1,5 @@
+
+DROP DATABASE IF EXISTS ipl_data;
+
+DROP ROLE IF EXISTS suhel;
+
